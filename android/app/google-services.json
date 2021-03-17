@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "410217604576",
+    "firebase_url": "https://flutter-products-c24f0.firebaseio.com",
+    "project_id": "flutter-products-c24f0",
+    "storage_bucket": "flutter-products-c24f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410217604576:android:37c023aa51c6fef735b785",
+        "android_client_info": {
+          "package_name": "com.xisser.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410217604576-0b8cq7t93kcucvjhca2emiks3eg7chrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtMAiAw2YO4K7WKpF4o5jTnFBuGkKu8Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410217604576-0b8cq7t93kcucvjhca2emiks3eg7chrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410217604576:android:0e0aa79269ff671635b785",
+        "android_client_info": {
+          "package_name": "com.xisser.fashionify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410217604576-0b8cq7t93kcucvjhca2emiks3eg7chrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtMAiAw2YO4K7WKpF4o5jTnFBuGkKu8Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410217604576-0b8cq7t93kcucvjhca2emiks3eg7chrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
