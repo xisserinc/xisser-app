@@ -30,6 +30,7 @@
 .pub-cache/
 .pub/
 /build/
+/functions/flutter-products.json
 
 # Web related
 lib/generated_plugin_registrant.dart
