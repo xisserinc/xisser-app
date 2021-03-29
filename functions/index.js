@@ -5,7 +5,9 @@ const os = require('os');
 const path = require('path');
 const fs = require('fs');
 const fbAdmin = require('firebase-admin');
-const uuid = require('uuid/v4');
+//const uuid = require('uuid/v4');
+const { v4: uuid } = require('uuid');
+uuid();
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
@@ -16,12 +18,18 @@ const uuid = require('uuid/v4');
 //flutter-products-c24f0 =>projectId
 //flutter-products.json => filename
 
-const gcconfig = {
-  projectId: 'flutter-products-c24f0',
-  keyFilename: 'flutter-products.json'
-};
+const {Storage} = require('@google-cloud/storage');
+const gcs = new Storage({
+    projectId: 'flutter-products-c24f0',
+    keyFilename: 'flutter-products.json'
+});
 
-const gcs = require('@google-cloud/storage')(gcconfig);
+// const gcconfig = {
+//   projectId: 'flutter-products-c24f0',
+//   keyFilename: 'flutter-products.json'
+// };
+//const gcs = require('@google-cloud/storage')(gcconfig);
+
 
 fbAdmin.initializeApp({
   credential: fbAdmin.credential.cert(require('./flutter-products.json'))
